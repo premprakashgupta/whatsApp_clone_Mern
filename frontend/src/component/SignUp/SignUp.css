@@ -1,0 +1,42 @@
+.signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signUpBox {
+  text-align: center;
+}
+.signUpBox small {
+  padding: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signUpBox small svg {
+  margin-right: 10px;
+  color: rgb(145, 142, 142);
+}
+.signUpBox p {
+  font-size: 2rem;
+
+  color: #ccc;
+}
+.signUpBox span {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+.signUpBox span .btn {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.signUpBox span button:first-child {
+  color: red;
+  font-weight: bold;
+}
+.signUpBox span button:last-child {
+  color: #25d366;
+  font-weight: bold;
+}

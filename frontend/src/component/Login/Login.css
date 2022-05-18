@@ -1,0 +1,73 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 80vw;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  pointer-events: none;
+}
+.logo img {
+  width: 55px;
+  height: 55px;
+  pointer-events: none;
+}
+.logo span {
+  width: auto;
+  height: auto;
+  font-size: 1.3rem;
+  color: #f5f5f5;
+  font-weight: 600;
+  margin: 0 1%;
+}
+.container_fluid {
+  width: 80vw;
+  height: 100vh;
+  /* background-image: linear-gradient(to bottom,var(--green) 20%,var(--background_c) 20%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center_container {
+  width: 80vw;
+  height: 100vh;
+  background-color: var(--background_c2);
+  margin: 3% auto;
+  padding: 5%;
+}
+.about_developer {
+  margin-top: 7%;
+}
+.thank_you {
+  /* display: block; */
+  width: auto;
+  height: auto;
+  cursor: pointer;
+}
+.col-sm-12 form {
+  width: 230px;
+  height: auto;
+  padding: 10px;
+  background-color: #fff;
+}
+.col-sm-12 form .form-group {
+  padding: 10px;
+  margin: 10px 0;
+}
+.col-sm-12 form .form-group input {
+  padding: 10px;
+  margin: 5px 0;
+  outline: none;
+}
+.col-sm-12 form .form-group input[type="submit"] {
+  background-color: #0095f6;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
